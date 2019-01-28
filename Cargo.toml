@@ -22,7 +22,7 @@ rand="0.5"
 siphasher = "0.2"
 byteorder="1.2"
 lru-cache = "0.1.1"
-bitcoin = { version = "0.16", optional = true }
+bitcoin = { git= "https://github.com/tamasblummer/rust-bitcoin.git", branch = "open_prs_0.16", optional = true }
 
 [dev-dependencies]
 hex = "0.3"
